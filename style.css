@@ -10,6 +10,11 @@ body {
     background-color: var(--background-color);
 }
 
+section {
+    background-color: var(--section);
+    padding: 20px;
+}
+
 .flex-container {
     display: flex;
     flex-direction: column;
@@ -21,11 +26,6 @@ body {
     background-color: var(--header);
     padding: 20px;
     text-align: center;
-}
-
-section {
-    background-color: var(--section);
-    padding: 20px;
 }
 
 /* Styles for different flexbox examples */
@@ -50,4 +50,11 @@ section {
     background-color: var(--item);
     padding: 20px;
     text-align: center;
+    align-items: center;
+    justify-content: center;
 }
+
+.flex-image {
+    max-width: 100%;
+    height: auto;
+  }
