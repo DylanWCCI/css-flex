@@ -1,0 +1,52 @@
+:root {
+    --background-color: #f0f8ff;
+    --section: #b3cee5;
+    --header: #005A9C;
+    --item: #f8f9fa;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+.header, .footer {
+    background-color: var(--header);
+    padding: 20px;
+    text-align: center;
+}
+
+section {
+    background-color: var(--section);
+    padding: 20px;
+}
+
+/* Styles for different flexbox examples */
+.flex-basic {
+    display: flex;
+    gap: 10px;
+}
+
+.flex-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.flex-align {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.item {
+    background-color: var(--item);
+    padding: 20px;
+    text-align: center;
+}
