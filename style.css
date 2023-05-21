@@ -10,6 +10,29 @@ body {
     background-color: var(--background-color);
 }
 
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    gap: 10px;
+    background-color: var(--background-color)
+  }
+  
+  .nav-item {
+    flex: 1;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 10px;
+    background-color: var(--header);
+    transition: background-color 0.3s ease;
+  }
+  
+  .nav-item:hover {
+    background-color: var(--section);
+  }
+  
+
 section {
     background-color: var(--section);
     padding: 20px;

@@ -8,13 +8,19 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <div class="flex-container">
+    <nav class="navbar">
+        <a href="#home" class="nav-item">Home</a>
+        <a href="#basic" class="nav-item">Basic Flexbox</a>
+        <a href="#wrap" class="nav-item">Flex Wrap</a>
+        <a href="#align" class="nav-item">Align Items</a>
+      </nav>
+    <div class="flex-container" id="home">
         <header class="header">
             <h1>Learning CSS Flexbox</h1>
             <p>Scroll down to see different applications of CSS Flexbox.</p>
         </header>
 
-        <section class="content-flex-basic">
+        <section class="content-flex-basic" id="basic">
             <h2>Basic Flexbox</h2>
             <p>Flexbox makes it easy to create a basic horizontal or vertical layout.</p>
             <div class="flex-basic">
@@ -24,7 +30,7 @@
             </div>
         </section>
 
-        <section class="content-flex-wrap">
+        <section class="content-flex-wrap" id="wrap">
             <h2>Flex Wrap</h2>
             <p>With the flex-wrap property, items can be allowed to wrap onto multiple lines.</p>
             <div class="flex-wrap">
@@ -36,7 +42,7 @@
             </div>
         </section>
 
-        <section class="content-flex-align">
+        <section class="content-flex-align" id="align">
             <h2>Align Items</h2>
             <p>Flexbox provides easy alignment of items along both the horizontal and vertical axes.</p>
             <div class="flex-align">
